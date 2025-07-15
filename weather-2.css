@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.coloum-1 {
+    background-image: url("./image/demo.webp");
+    background-position: center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: local !important;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.days div {
+    width: 85px;
+    height: 80px;
+    border: 2px solid rgb(0, 38, 255);
+    border-radius: 20px;
+    margin: 1px;
+}
+
+.days div:hover {
+    background-color: aqua;
+    transition: 2s;
+    color: black;
+    transform: scale(1.2);
+}
